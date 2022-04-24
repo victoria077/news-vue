@@ -141,10 +141,6 @@ export default {
         this.comment = '';
       })
       this.$router.go(0);
-    },
-    update(){
-      const self = this;
-      self.$forceUpdate();
     }
   }
 }
