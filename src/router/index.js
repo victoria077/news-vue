@@ -6,14 +6,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/news',
+    path: '/',
     name: 'news',
     component: HomeView,
-    // children: [{
-    //   path: '/news/:id',
-    //   component: () =>
-    //             import ( /* webpackChunkName: "Messages" */ '../views/Post.vue')
-    // }]
   },
   {
     path: '/news/:id',

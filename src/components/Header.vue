@@ -11,8 +11,8 @@
           dense
           group
       >
-      <v-btn text active-class="active">
-        <router-link to="/news" active-class="active" class="nav__btn" tag="button">
+      <v-btn text>
+        <router-link to="/" active-class="active" class="nav__btn" exact tag="button">
           Новости
         </router-link>
       </v-btn>
